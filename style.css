@@ -8,7 +8,7 @@
 header{
     position: fixed;
     width: 100%;
-    background-color: #fff2ac;
+    background-color: #6C63FF;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,49 +26,60 @@ nav{
 nav a {
     padding: 20px;
     text-decoration: none;
-    color: #000000;
+    color: #fff;
     text-transform: uppercase;
     transition: 0.5s ease all;
 }
 
 nav a:hover{
-    color: #ff4800;
+    color: #FFB9B9;
     transition: 0.5s ease all;
 }
 
 .first-section{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #fdf9ef;
-    height: 70vh;
+    height: 90vh;
+}
+
+.first-section .imagen-top img{
+    width: 600px;
+    margin-right: 40px;
 }
 
 .first-section article p {
     margin: 0 50px;
     font-size: 1.3rem;
+    width: 70%;
 }
 
 button{
-    background-color: #ff6600;
-    border: 1px solid #ff4800;
+    background-color: #6C63FF;
+    border: 1px solid #5a189a;
     padding: 12px 20px;
     border-radius: 10px;
     text-transform: uppercase;
     font-weight: bold;
+    transition: 0.5s ease all;
 }
 
 button a{
     text-decoration: none;
     color: inherit;
     transition: 0.5s ease all;
+    color: #fff;
 }
 
 button a:hover{
-    color: #fdf9ef;
+    color: #5a189a;
     transition: 0.5s ease all;
 }
 
+button:hover{
+    background-color: #FFB9B9;
+    transition: 0.5s ease all;
+}
 .btn{
     margin: 30px 50px;
 }
@@ -88,11 +99,12 @@ button a:hover{
 }
 
 footer{
-    background-color: #fff2ac;
+    background-color: #6C63FF;
     color: #fff;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000;
+    color: #fff;
 }
+
