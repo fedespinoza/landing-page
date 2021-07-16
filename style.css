@@ -13,6 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 5;
 }
 
 header img{
@@ -219,7 +220,7 @@ button:hover{
 .ir{
     position: relative;
     top: -89px;
-    left: 4%;
+    left: 1%;
     z-index: 0;
     transition: 0.5s ease all;
 
