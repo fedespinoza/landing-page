@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -31,6 +32,13 @@ nav a {
     transition: 0.5s ease all;
 }
 
+.up{
+    background-color: #b09fff;
+    border-radius:50%;
+    padding: 10px 12px;
+    color: #000;
+}
+
 nav a:hover{
     color: #FFB9B9;
     transition: 0.5s ease all;
@@ -56,7 +64,6 @@ nav a:hover{
 
 button{
     background-color: #6C63FF;
-    border: 1px solid #5a189a;
     padding: 12px 20px;
     border-radius: 10px;
     text-transform: uppercase;
@@ -72,7 +79,7 @@ button a{
 }
 
 button a:hover{
-    color: #5a189a;
+    color: #6C63FF;
     transition: 0.5s ease all;
 }
 
@@ -90,12 +97,223 @@ button:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #fff5f5;
+    background-color: #f1f1f1;
+    padding: 200px 0;
 }
 
 .parrafo{
     width: 80%;
     line-height: 1.8;
+}
+
+.third-section{
+    background-color: #fdf9ef;
+}
+
+.titulos-third-section,
+.titulos-fourth-section,
+.titulos-fifth-section{
+    text-align: center;
+}
+
+.titulos-third-section h2,
+.titulos-fourth-section h2,
+.titulos-fifth-section h2{
+    font-size: 3em;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.benefits .first-benefit,
+.benefits .second-benefit,
+.benefits .third-benefit{
+    width: 25%;
+    margin-top: 100px;
+}
+
+.benefits .first-benefit h4,
+.benefits .second-benefit h4,
+.benefits .third-benefit h4{
+    padding: 15px 0;
+}
+
+.benefits .first-benefit img,
+.benefits .second-benefit img,
+.benefits .third-benefit img{
+    width:15%;
+}
+
+.fourth-section{
+    background-color: #f1f1f1;
+}
+
+.steps{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.steps .first-step,
+.steps .second-step,
+.steps .third-step,
+.steps .fourth-step{
+    width:20%;
+}
+
+.steps .first-step h4,
+.steps .second-step h4,
+.steps .third-step h4,
+.steps .fourth-step h4{
+    padding: 15px;
+}
+
+.steps .first-step img,
+.steps .second-step img,
+.steps .third-step img,
+.steps .fourth-step img{
+    width:25%;
+}
+
+.fifth-section{
+    background-color: #fdf9ef;
+}
+
+.works{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.works .first-work,
+.works .second-work,
+.works .third-work,
+.works .fourth-work{
+    width:20%;
+}
+
+.works .first-work img,
+.works .second-work img,
+.works .third-work img,
+.works .fourth-work img{
+    border-radius: 10px;
+    transition: 0.5s ease all;
+    position: relative;
+    z-index: 1;
+}
+
+.ir{
+    position: relative;
+    top: -89px;
+    left: 4%;
+    z-index: 0;
+    transition: 0.5s ease all;
+
+}
+
+.ir a{
+    text-decoration: none;
+    color: #000;
+}
+
+.works .first-work img:hover,
+.works .second-work img:hover,
+.works .third-work img:hover,
+.works .fourth-work img:hover{
+    filter: contrast(35%) brightness(80%);
+    transition: 0.5s ease all;
+    z-index: 0;
+} 
+
+.ir:hover{
+    display: contents;
+    filter: opacity(100%);
+    transition: 0.5s ease all;
+} 
+
+.sixth-section{
+    background-color: #f1f1f1;
+    display: flex;
+}
+
+.contact-us{
+    width: 55%;
+}
+
+.contact-us h2{
+    font-size: 2em;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.contact-us h4{
+    font-size: 1.2em;
+}
+
+.data{
+    display: flex;
+    justify-content:center;
+}
+
+.data1,
+.data2{
+    padding-left: 50px;
+}
+
+.contact-us .data .data1 img,
+.contact-us .data .data2 img{
+    width:8%;
+}
+
+.street,
+.mail,
+.phone{
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+}
+
+.street img,
+.mail img,
+.phone img{
+    margin-right: 8px;
+}
+
+i{
+    font-size: 2em:
+}
+
+.redes{
+    margin: 60px 0 60px 35px;
+}
+
+.redes img{
+    width: 3%;
+    margin-left: 15px;
+}
+
+.map{
+    width: 45%;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
 }
 
 footer{
