@@ -1,3 +1,17 @@
+@media (max-width: 1366px) {
+    .first-section .imagen-top img{
+        width: 600px;
+        margin-right: 40px;
+    }
+    
+    .first-section article p {
+        margin: 50px 50px;
+        font-size: 1.4rem;
+        width: 70%;
+        font-weight: 300;
+    }
+}
+
 @media (max-width: 768px) { 
     header{
         flex-direction: column;
