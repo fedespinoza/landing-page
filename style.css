@@ -33,13 +33,6 @@ nav a {
     transition: 0.5s ease all;
 }
 
-.up{
-    background-color: #b09fff;
-    border-radius:50%;
-    padding: 10px 12px;
-    color: #000;
-}
-
 nav a:hover{
     color: #FFB9B9;
     transition: 0.5s ease all;
@@ -93,6 +86,18 @@ button a:hover{
 
 .btn{
     margin: 30px 50px;
+}
+
+.arrow{
+    position: fixed;
+    left: 95%;
+}
+
+.up{
+    background-color: #b09fff;
+    border-radius:50%;
+    padding: 10px 12px;
+    color: #000;
 }
 
 .second-section{
@@ -215,39 +220,42 @@ button a:hover{
 .works .third-work img,
 .works .fourth-work img{
     border-radius: 10px;
-    transition: 0.5s ease all;
-    position: relative;
-    z-index: 1;
+    position: absolute;
+    transition: 0.2s ease-in-out all;
 }
 
-.ir{
+.works .first-work1,
+.works .second-work1,
+.works .third-work1,
+.works .fourth-work1{
+    border-radius: 10px;
+    width: 480px;
+    height: 150px;
+    background-color: #000000;
     position: relative;
-    top: -89px;
-    left: 1%;
-    z-index: 0;
-    transition: 0.5s ease all;
-
+    top: 0;
+    left: -90px;
+    opacity: 0%;
+    transition: 0.2s ease-in-out all;
+    padding: 70px 0 0 5px;
+    color: #fff;
 }
 
-.ir a{
+.works .first-work1:hover,
+.works .second-work1:hover,
+.works .third-work1:hover,
+.works .fourth-work1:hover{
+    opacity: 70%;
+}
+
+.works .first-work1 a,
+.works .second-work1 a,
+.works .third-work1 a,
+.works .fourth-work1 a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    text-transform: uppercase;
 }
-
-.works .first-work img:hover,
-.works .second-work img:hover,
-.works .third-work img:hover,
-.works .fourth-work img:hover{
-    filter: contrast(35%) brightness(80%);
-    transition: 0.5s ease all;
-    z-index: 0;
-} 
-
-.ir:hover{
-    display: contents;
-    filter: opacity(100%);
-    transition: 0.5s ease all;
-} 
 
 .sixth-section{
     background-color: #f1f1f1;
